@@ -26,11 +26,6 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section id="qrcode" data-menu-title="QR code">
-          <div class="qrcode" id="qrcode-talk"></div>
-          <p><a href="https://example.com/link/to/this/talk" target="_blank"
-                id="talk">https://example.com/link/to/this/talk</a></p>
-        </section>
         <section id="title" data-markdown>
             <textarea data-template>
                 ## Audio Processing
@@ -57,23 +52,37 @@
             </section>
             <section>
                 <h2>Reverb</h2>
-                <b>without reverb:</b>
+                <b>without</b>
                 <br />
                 <audio src="audio/fur_elise.mp3" type="audio/mp3" controls preload></audio>
                 <br /><br />
-                <b>with reverb:</b>
+                <b>with</b>
                 <br />
                 <audio src="audio/fur_elise_reverb.mp3" type="audio/mp3" controls preload></audio>
             </section>
             <section>
                 <h2>Delay</h2>
-                <b>without delay:</b>
+                <b>without</b>
                 <br />
                 <audio src="audio/fur_elise.mp3" type="audio/mp3" controls preload></audio>
                 <br /><br />
-                <b>with delay:</b>
+                <b>with</b>
                 <br />
                 <audio src="audio/fur_elise_delay.mp3" type="audio/mp3" controls preload></audio>
+            </section>
+            <section>
+                <h2>Auto-tune</h2>
+                <b>without:</b>
+                <br />
+                <audio src="audio/without_autotune.mp3" type="audio/mp3" controls preload></audio>
+                <br /><br />
+                <b>with:</b>
+                <br />
+                <audio src="audio/with_autotune.mp3" type="audio/mp3" controls preload></audio>
+                <br /><br />
+                <b>robot:</b>
+                <br />
+                <audio src="audio/Believe_-_Cher.ogg" type="audio/ogg" controls preload></audio>
             </section>
         </section>
         <section>
@@ -81,10 +90,12 @@
                 <h2>Sound Identification</h2>
             </section>
             <section>
-                <b>What do you hear?</b>
-                <br />
+                <h4>What do you hear?</h4>
                 <br />
                 <audio src="audio/rainy_scene_example.mp3" type="audio/mp3" controls preload></audio>
+                <br />
+                <br />
+                <p class="fragment">How could a computer identify these sounds?</p>
             </section>
         </section>
         <section>
