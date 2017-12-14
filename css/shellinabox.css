@@ -3,6 +3,11 @@
 #vt100 #cursor,
 #vt100 #lineheight,
 #vt100 .hidden pre {
+<<<<<<< HEAD
   font-size: 24pt; }
+=======
+  font-size: 24pt;
+}
+>>>>>>> 3b67fa857819a3e280a7f8ebe6962b6911c8830e
 
 /*# sourceMappingURL=shellinabox.css.map */
